@@ -12,6 +12,7 @@ body {
     position: fixed;
     top: 0px;
     border-bottom: 1px solid seashell;
+    background-color: black;
 }
 
 .navagation {
@@ -49,3 +50,45 @@ a:link {
     text-align: center;
 }
 
+.text {
+    text-align: center;
+}
+
+.tea-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex: wrap;
+}
+
+.tea img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+.location {
+    background: url(images/img-locations-background.jpg);
+    height: 500px;
+    width: 1000px;
+    margin: 50px auto 50px auto; 
+    display: flex;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.box-container {
+    max-width: 1000px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+   height: 300px;
+   padding: 40px;
+   flex: auto;
+   background-color: black;
+   margin-bottom: auto;
+   box-sizing: border-box
+}
