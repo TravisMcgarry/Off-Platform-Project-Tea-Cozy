@@ -52,6 +52,7 @@ a:link {
 
 .text {
     text-align: center;
+    
 }
 
 .tea-container {
@@ -67,6 +68,8 @@ a:link {
     padding: 10px;
 }
 
+
+
 .location {
     background: url(images/img-locations-background.jpg);
     height: 500px;
@@ -77,18 +80,29 @@ a:link {
     background-size:cover;
 }
 
+.Locations {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
 .box-container {
     max-width: 1000px;
-    margin: 15px auto;
+    margin: auto auto;  
     display: flex;
     justify-content: space-between;
 }
 
 .box {
    height: 300px;
-   padding: 40px;
-   flex: auto;
+   padding: 15px;
+   flex-basis: 30%;
+   box-sizing: border-box;
    background-color: black;
-   margin-bottom: auto;
-   box-sizing: border-box
+   margin-bottom: ;
+   opacity: 80%;
+}
+
+.contact {
+    display: inline-block;
 }
